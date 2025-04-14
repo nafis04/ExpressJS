@@ -1,0 +1,26 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development && dotenvx run -f .env.$NODE_ENV -- node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nafis04/ExpressJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nafis04/ExpressJS/issues"
+  },
+  "homepage": "https://github.com/nafis04/ExpressJS#readme",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.40.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
